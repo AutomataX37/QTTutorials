@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConverterWidget</class>
+ <widget class="QWidget" name="ConverterWidget">
+  <property name="enabled">
+   <bool>false</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ConverterWidget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>Celsius</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QDial" name="dialCelsius"/>
+        </item>
+        <item>
+         <widget class="QLCDNumber" name="LCD_Celsius"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>Fahrenheit</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QDial" name="dialFahrenheit"/>
+        </item>
+        <item>
+         <widget class="QLCDNumber" name="LCD_Fahrenheit"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
